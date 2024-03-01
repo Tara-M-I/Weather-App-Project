@@ -1,0 +1,13 @@
+.search-form-input{
+    background-color: aquamarine;
+    border-radius: 6px;
+    width:80%;
+    padding: 15px 20px
+
+}
+.search-button{
+    background-color: blueviolet;
+    padding: 15px 20px;
+border: 4px;
+border-radius: 10px;
+}
