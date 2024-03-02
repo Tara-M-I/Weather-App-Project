@@ -116,11 +116,12 @@ border: 50px;
 }
 .container{
     text-align: center;
+
 }
 .h1{
    color: darkslategray;
    font-family:"Poppins",sans-serif;
-   font-size: 18px;
+   font-size: 24px;
    text-align: center;
 }
 .weather{
@@ -129,22 +130,45 @@ color: darkslategray;
     font-size: 14px;
     text-align: left;
 }
+.icon{
+    font-size: 150px;
+    text-align: left;
+}
+.temp{
+    
+    color: darkslategray;
+    font-family: "Poppins", sans-serif;
+    font-size:120px;
+    text-align: left;
+}
+.degrees{
+    color: darkslategray;
+    font-family: "Poppins", sans-serif;
+    font-size:118px;
+    text-align: left;
+}
 .search-form-input{
-    background-color: #f8f8f8;
     border-radius: 6px;
-    width:6px 8px%;
-    padding: 15px 20px
+    width:6px 8px;
+    padding: 15px 20px;
+
+  
 
 }
 .search-button{
-    background-color: blueviolet;
+    background-color:darkslateblue;
     padding: 15px 20px;
 border: 4px;
 border-radius: 10px;
+color:aliceblue;
+font-size: 12px;
+font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .footer{
 color: darkslategray;
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     text-align: left;
 }
