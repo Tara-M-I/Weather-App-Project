@@ -134,7 +134,14 @@ border: 50px;
    font-size: 24px;
    text-align: center;
 }
+table {
 
+    font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        width: 100%;
+        font-size: 60px;
+}
 .icon {
     font-size: 60px;
     text-align: center;
