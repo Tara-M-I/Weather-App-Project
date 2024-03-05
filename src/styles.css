@@ -115,38 +115,45 @@ margin:25px 50px;
 border: 50px;
 }
 .container{
-    text-align: center;
+    width:50%;
+    height: 50%;
+    border-radius: 25px;
+    margin:2px auto;
+    position:relative;
+    padding-top:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:5px;
+ background-color: #9FA9F9;
 
 }
+
 .h1{
-   color: darkslategray;
+   color: #020627;
    font-family:"Poppins",sans-serif;
    font-size: 24px;
    text-align: center;
 }
+
+.icon {
+    font-size: 60px;
+    text-align: center;
+}
+.temp {
+
+    color: #020627;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
 .weather{
-color: darkslategray;
+color: #020627;
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     text-align: left;
 }
-.icon{
-    font-size: 150px;
-    text-align: left;
-}
-.temp{
-    
-    color: darkslategray;
-    font-family: "Poppins", sans-serif;
-    font-size:120px;
-    text-align: left;
-}
-.degrees{
-    color: darkslategray;
-    font-family: "Poppins", sans-serif;
-    font-size:118px;
-    text-align: left;
-}
+
+
 .search-form-input{
     border-radius: 6px;
     width:6px 8px;
@@ -167,7 +174,7 @@ font-family: "Poppins", sans-serif;
     font-style: normal;
 }
 .footer{
-color: darkslategray;
+color: darkslateblue;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     text-align: left;
