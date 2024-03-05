@@ -12,9 +12,8 @@
 
   <body> <div class="container">
   
-        <div class="h1">
-      <h1>Toronto</h1>
-    </div> 
+      <h1 class= h1 id="city">Toronto</h1>
+    
   <table>
     <tr>
      <td class ="temp">2°C</td>
@@ -29,11 +28,12 @@
           Humidity = 78%, Wind = 8 km/h</div>
            
 <div class="search-form-input">
-        <form>
+        <form id="search-form-input">
           <input
             type="search"
             placeholder="Enter a city..."
             required
+            id="search-city"
             class="search-form-input" />
           <input type="submit"value="Search" class="search-button" />
         </form></div></p>
@@ -54,5 +54,6 @@
          
       </footer>
     </div>
+    <script src ="src/index.js"></script>
   </body>
 </html>
