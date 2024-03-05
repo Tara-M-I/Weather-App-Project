@@ -143,15 +143,15 @@ table {
         font-size: 60px;
 }
 .icon {
-    font-size: 60px;
+    font-size: 110px !important;
     text-align: center;
 }
 .temp {
 
     color: #020627;
     font-family: "Poppins", sans-serif;
-    font-size: 40px;
-    text-align: center;
+    font-size: 50px;
+    text-align: right;
 }
 .weather{
 color: #020627;
