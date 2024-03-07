@@ -23,3 +23,5 @@ function handleSearchSubmit(event){
 
 let searchFormElement = document.querySelector("#search-form-input");
 searchFormElement.addEventListener("submit",handleSearchSubmit);
+
+searchTemp ("Toronto");
