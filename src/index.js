@@ -1,5 +1,9 @@
-function updateWeatherInfo(response){
-console.log(response.data.temperature.current);  
+function updateWeatherInfo(response){ 
+let temperatureElement = document.querySelector("#temperature");
+let temperature = response.data.temperature.current;
+temperatureElement.innerHTML=Math.round(temperature);
+
+
 }
 
 function searchTemp(city){
