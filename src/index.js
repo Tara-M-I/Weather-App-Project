@@ -6,7 +6,8 @@ let descriptionElement=document.querySelector("#description");
 descriptionElement.innerHTML=response.data.condition.description;
 let humdityElement = document.querySelector("#humidity");
 humdityElement.innerHTML = `${response.data.temperature.humidity}%`;
-
+let windElement = document.querySelector ("#wind");
+windElement.innerHTML=`${response.data.wind.speed}km/h`;
 }
 
 

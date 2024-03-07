@@ -167,12 +167,17 @@ color: #020627;
 
 }
 .humdity {
-color: darkslateblue;
+color: darkslateblue !important;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     text-align: left;
 }
-
+.wind{
+    color: darkslateblue;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        text-align: left;
+}
 
 .search-form-input{
     border-radius: 6px;
