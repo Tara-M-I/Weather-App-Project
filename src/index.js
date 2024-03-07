@@ -2,9 +2,13 @@ function updateWeatherInfo(response){
 let temperatureElement = document.querySelector("#temperature");
 let temperature = response.data.temperature.current;
 temperatureElement.innerHTML=Math.round(temperature);
-
+let descriptionElement=document.querySelector("#description");
+descriptionElement.innerHTML=response.data.condition.description;
+let humdityElement = document.querySelector("#humidity");
+humdityElement.innerHTML = `${response.data.temperature.humidity}%`;
 
 }
+
 
 function searchTemp(city){
 let apiKey = "c794c14abfa5138e0adb4dof9fffect7";
@@ -23,5 +27,4 @@ function handleSearchSubmit(event){
 
 let searchFormElement = document.querySelector("#search-form-input");
 searchFormElement.addEventListener("submit",handleSearchSubmit);
-
-searchTemp ("Toronto");
+searchTemp(city);
