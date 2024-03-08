@@ -141,22 +141,26 @@ table {
         font-style: normal;
         width: 100%;
         font-size: 60px;
+    
 }
 .icon {
-    font-size: 110px !important;
-    text-align: center;
+height: 150px;
+width: 150px;
+padding-left: 35%;
+
 }
 .temp {
 
     color: #020627;
     font-family: "Poppins", sans-serif;
-    font-size: 50px;
-    text-align: right;
+    font-size: 65px;
+text-align: right;
 }
 .weatherUnit {
     color: #020627;
         font-family: "Poppins", sans-serif;
         font-size: 45px;
+        
         
 }
 .weather{
