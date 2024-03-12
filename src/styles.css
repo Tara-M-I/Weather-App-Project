@@ -181,6 +181,23 @@ color: darkslateblue !important;
         font-size: 18px;
         text-align: left;
 }
+.weekly-forecast {
+    margin-top: 20px;
+
+}
+.weather-forecast-day {
+    color: #020627;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+.weather-forecast-temp {
+color: #020627;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+.weather-temp-min {
+    opacity:0.6;
+}
 
 .search-form-input{
     border-radius: 6px;
